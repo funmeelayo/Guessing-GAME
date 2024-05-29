@@ -13,12 +13,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 2rem 0;
 }
 
 h1{
     color: #FDE9B4;
     font-size: 5rem;
     margin-bottom: 28px;
+    text-align: center;
 }
 #Instructions{
     font-size: 2.5rem;
@@ -32,6 +34,7 @@ h1{
     color: rgb(239, 233, 233);
     text-align:justify;
     line-height: 2rem;
+    width: 90%;
 }
 .strongInstruction{
     color: #FDE9B4;
@@ -155,3 +158,11 @@ flex-direction: column;
     font-size: 2rem;
     border: 2px solid #FECD61;
 }
+
+
+/* @media screen  and (min-width: 375px) and (max-width: 940px){
+    h1{
+        font-size: 4rem;
+        margin: 0 auto;
+    }
+} */

@@ -54,10 +54,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     numberInput.disabled = true;
                     guessButton.disabled = true;
                 } else if (userGuess < randomNumber) {
-                    outputText.textContent = "Too low! Try again.";
+                    outputText.textContent = "Your guess is low! Try again.";
                     outputText.style.color = 'orange';
                 } else if (userGuess > randomNumber) {
-                    outputText.textContent = "Too high! Try again.";
+                    outputText.textContent = "Your guess is high! Try again.";
                     outputText.style.color = 'orange';
                 }
             }
