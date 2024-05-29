@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main_container{
+    background-color: #654463;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #FDE9B4;
+    font-size: 5rem;
+    margin-bottom: 28px;
+}
+#Instructions{
+    font-size: 2.5rem;
+    color: #FDE9B4;
+    opacity: 80%;
+    margin-bottom: 14px;
+    
+}
+.Game_guide{
+    font-size: 1.5rem;
+    color: rgb(239, 233, 233);
+    text-align:justify;
+    line-height: 2rem;
+}
+.strongInstruction{
+    color: #FDE9B4;
+}
+.page_1_CTA{
+    display: flex;
+    width: 50%;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    
+}
+.Pagebutton, .Enteryourusername{
+    flex: 1;
+}
+.Enteryourusername{
+    margin-top: 20px;
+    width: 50%;
+    height: 5%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color:#dad9d7;
+    font-size: 2rem; 
+}
+input::placeholder{
+    font-size: 1.5rem;
+    text-align: center;
+    
+
+}
+.Pagebutton{
+    margin-top: 30px;
+    width: 80%;
+    height: 80%;
+    
+    
+}
+.guess{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #FECD61;
+    color: black;
+    border: none;
+    outline: 1.5px solid black;
+    outline-offset: -14px;
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* Page 2 styling */
+.h1page2{
+    width: 60%;
+    text-align: center;
+    font-size: 4rem;
+}
+.h4page2{
+    font-size: 1.5rem;
+    color: #FDE9B4;
+    opacity: 80%;
+    margin-bottom: 8px;
+}
+
+.h3page2{
+font-size: 1.8rem;
+color: hsl(40, 79%, 50%);
+font-weight: bold;
+
+}
+.page2input{
+    width: 20%;
+    height: 20%;
+    margin-top: 16px;
+}
+.page2input>input{
+    width: 100%;
+    height: 100%;
+    font-size: 7.5rem;
+    text-align: center;
+    border-radius: 30px ;
+    border: none;
+    outline: none;
+    background-color: #f8e6c3;
+}
+
+#userInput::placeholder{
+    font-size:7.5rem ;
+    color: #4f354e;;
+}
+.page2buttonwrapper{
+ width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+ margin-top: 40px;
+ gap: 40px;
+ 
+}
+.page2awrapper{
+    width: 80%;
+}
+
+.page2button{
+    border: none;
+    outline: none;
+   
+}
+.a_different{
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid #FECD61;
+}
